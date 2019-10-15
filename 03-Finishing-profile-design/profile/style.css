@@ -1,0 +1,36 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  background-color: #ecfcff;
+  font-family: 'Open Sans', sans-serif;
+  /*font-weight: 500;*/
+  color: #5edfff;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+h1 {
+  color: #3e64ff;
+  font-family: 'Poppins', sans-serif;
+  /*font-weight: 500;*/
+  font-size: 20px;
+  line-height: 1;
+}
+
+h2 {
+  color: #3e64ff;
+  font-family: 'Poppins', sans-serif;
+  /*font-weight: 500;*/
+  font-size: 15px;
+  line-height: 1;
+}
+
+a {
+  color: #5edfff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3e64ff;
+  text-decoration: none;
+}
