@@ -2,11 +2,12 @@
 
 body {
   background-color: #ecfcff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   /*font-weight: 500;*/
-  color: #5edfff;
+  color: #3e64ff;
   font-size: 20px;
   line-height: 1.5;
+  text-align: center;
 }
 
 h1 {
@@ -33,4 +34,35 @@ a {
 a:hover {
   color: #3e64ff;
   text-decoration: none;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px gray;
+  margin: 5% 0;
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 40px;
+}
+
+#circle-image {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
 }
